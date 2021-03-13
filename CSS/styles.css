@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: rgba(36, 70, 173, 0.692);
+    border: none;
+    color: white;
+}
+
+.textview {
+    height: 30px;
+    width: 208px;
+    margin: 4px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: rgba(36, 70, 173, 0.692);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bg {
+    background: linear-gradient(to right, rgb(228, 110, 110), rgb(119, 119, 221));
+    height: 100vh;
+}
+
